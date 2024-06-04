@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #548687;
+    background-color: #A67B5B;
     text-align: center;
 }
 
@@ -37,31 +37,34 @@ body::-webkit-scrollbar {
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     font-size: 8vmin;
-    color: #b0413e;
-    background-color: rgb(222, 164, 222);
+    color: #A67B5B;
+    background-color: #F8F9D7;
 }
 
 #reset-btn{
     padding: 1rem;
     font-size: 1.5rem;
-    background-color: #191913;
-    color: #FFF;
+    background-color: #ECB176;
+    color: #000;
     border-radius: 1rem;
     border: none;
+    font-weight: 600;
 }
 
 #new-btn{
         padding: 1rem;
         font-size: 1.5rem;
-        background-color: #191913;
-        color: #FFF;
+        background-color: #ECB176;
+        color: #000;
         border-radius: 1rem;
         border: none;
+        font-weight: 600;
 }
 
 #msg {
     color: #ffffc7;
-    font-size: 5vmin;
+    font-size: 50px;
+    font-weight: 800;
 }
 
 .msg-container {
@@ -75,4 +78,9 @@ body::-webkit-scrollbar {
 
 .hide{
     display: none;
+}
+
+main h3 {
+    color: #F3F7EC;
+    font-size: 50px;
 }
